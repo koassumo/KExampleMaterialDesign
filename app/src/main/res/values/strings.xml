@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KExampleMaterialDesign</string>
+    <string name="hint_outlined_box">hint(Label) - OutlinedBox</string>
+    <string name="hint_filled_box">hint(Label) - FilledBox</string>
+    <string name="hint">hint(Label) -подсказка</string>
+    <string name="placeholder_text">placeholderText</string>
+    <string name="helper_text_1">helperText - вспомогательный: \n
+        в InputLayout - endIconMode=\"password_toggle\"\n
+        в EditText - inputType=\"textPassword\"\n
+        counterEnabled="true", counterMaxLength="20" - при превышении обод меняет цвет
+    </string>
+    <string name="helper_text_2">"endIconCheckable=\"true\", endIconDrawable=\"@drawable/ic_wikipedia\"\nendIconMode=\"custom\" - иконка видна сразу"</string>
+    <string name="helper_text_3">endIconMode=\"clear_text\" - т.е. иконку сразу не видно, возникает когда текст набираешь</string>
+    <string name="favourite">favourite</string>
+    <string name="settings">settings</string>
+    <string name="search">Search</string>
+    <string name="choice_group_hint">RadioButton analog  singleSelection=\"true\"</string>
+    <string name="chip_group_hint">тут с прокруткой HorizontalScrollView (можно singleLine=\"true\", но без прокрутки)</string>
+    <string name="click_to_try">Click to try</string>
+    <string name="default_chip">Default chip</string>
+    <string name="entry_chip">Entry chip</string>
+    <string name="choice_chip">Choice chip</string>
+    <string name="action_chip">Action chip</string>
+    <string name="filter_chip">Filter chip</string>
+    <string name="title_different_types_chips">Different types</string>
+    <string name="title_different_recolors_chips">Different colors and others</string>
+</resources>
