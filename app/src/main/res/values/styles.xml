@@ -6,7 +6,7 @@
     </style>
 
     <style name="heading_text_style" parent="padding_left">
-        <item name="android:textColor">@color/heading_colour</item>
+<!--        <item name="android:textColor">@color/heading_colour</item>-->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingTop">@dimen/heading_padding_top</item>
