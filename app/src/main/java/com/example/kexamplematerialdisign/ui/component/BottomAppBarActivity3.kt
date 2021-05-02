@@ -20,12 +20,14 @@ class BottomAppBarActivity3 : AppCompatActivity() {
         fun start(context: Context) = Intent(context, BottomAppBarActivity3::class.java).apply {
             context.startActivity(this)
         }
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.bottom_app_bar_activity_3)
         setBottomAppBar ()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -69,6 +71,7 @@ class BottomAppBarActivity3 : AppCompatActivity() {
 
     // замена верхнего Bar (по default) на нижний
     private fun setBottomAppBar() {
+        // Внимание - вызов setSupportActionBar в теме с верним ActionBar приводит к ошибке
         setSupportActionBar (findViewById(R.id.bottom_app_bar))
 
         fab.setOnClickListener {

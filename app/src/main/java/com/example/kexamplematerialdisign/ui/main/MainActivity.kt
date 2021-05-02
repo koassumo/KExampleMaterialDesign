@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        ChipsActivity4.start (this)
+        //ChipsActivity4.start (this)
 //    <<<<<<<<<<<<<<<<[[[  2. Подписка на liveData
 //    <<<<<<<<<<<<<<<<[[[  *4. И сразу при Подписке описание реакции подписчика, 4ка выполнится позже
         mViewModel.liveData.observe(this, Observer {

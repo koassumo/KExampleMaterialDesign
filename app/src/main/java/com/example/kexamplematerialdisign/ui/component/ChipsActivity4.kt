@@ -4,12 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.lifecycle.ViewModelProvider
 import com.example.kexamplematerialdisign.R
-import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.chips_activity_4.*
-import kotlinx.android.synthetic.main.item_component_0.view.*
 
 // новая activity - в manifest !!!
 class ChipsActivity4 : AppCompatActivity() {
@@ -27,10 +23,10 @@ class ChipsActivity4 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         flag = if (flag) {
-            setTheme(R.style.MyAppTheme)
+            setTheme(R.style.GreenAppTheme)
             false
         } else{
-            setTheme(R.style.YourAppTheme)
+            setTheme(R.style.BrownAppTheme)
             true
         }
         super.onCreate(savedInstanceState)
@@ -42,7 +38,7 @@ class ChipsActivity4 : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        default_button.setOnClickListener {
+        first_chip_button.setOnClickListener {
             recreate()
         }
 

@@ -7,10 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kexamplematerialdisign.R
 import com.example.kexamplematerialdisign.model.entity.Component
-import com.example.kexamplematerialdisign.ui.component.EditTextActivity1
-import com.example.kexamplematerialdisign.ui.component.BottomSheetActivity2
-import com.example.kexamplematerialdisign.ui.component.BottomAppBarActivity3
-import com.example.kexamplematerialdisign.ui.component.ChipsActivity4
+import com.example.kexamplematerialdisign.ui.component.*
 import kotlinx.android.synthetic.main.item_component_0.view.*
 
 class MainAdapter (eContext: Context): RecyclerView.Adapter<MainAdapter.ViewHolder>() {
@@ -23,7 +20,6 @@ class MainAdapter (eContext: Context): RecyclerView.Adapter<MainAdapter.ViewHold
             field = value
             notifyDataSetChanged()
         }
-
 
     // (Один) при создании vh - onCreateViewHolder - в него передается itemView
     // (Два) при вызове у vh метода bind - в него передается данные из array, чтобы связать с itemView
@@ -41,7 +37,7 @@ class MainAdapter (eContext: Context): RecyclerView.Adapter<MainAdapter.ViewHold
                     "2" ->  BottomSheetActivity2.start (aContext)
                     "3" ->  BottomAppBarActivity3.start (aContext)
                     "4" ->  ChipsActivity4.start (aContext)
-                    "5" ->  EditTextActivity1.start (aContext)
+                    "5" ->  ThemesActivity5.start (aContext)
                     "6" ->  EditTextActivity1.start (aContext)
                     "7" ->  EditTextActivity1.start (aContext)
                     "8" ->  EditTextActivity1.start (aContext)
