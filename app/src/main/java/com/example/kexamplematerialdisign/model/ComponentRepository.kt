@@ -8,7 +8,7 @@ object ComponentRepository {
         Component("+", "2", "BottomSheet"),
         Component("+", "3", "BottomAppBar"),
         Component("+", "4", "Chips"),
-        Component("-", "5", "------"),
+        Component("+", "5", "Themes"),
         Component("-", "6", "------"),
         Component("-", "7", "------"),
         Component("-", "8", "------"),

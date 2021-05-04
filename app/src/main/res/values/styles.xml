@@ -6,6 +6,12 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <style name="margin_left">
+        <item name="android:layout_marginLeft">@dimen/padding_left</item>
+        <item name="android:layout_marginTop">@dimen/padding_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
     <style name="heading_text_style" parent="padding_left">
 <!--        <item name="android:textColor">@color/heading_colour</item>-->
@@ -31,7 +37,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_marginTop">@dimen/divider_margin_top</item>
         <item name="android:layout_height">@dimen/divider_line_height</item>
-<!--        <item name="android:background">@android:color/darker_gray</item>-->
+        <item name="android:background">@android:color/darker_gray</item>
     </style>
 
 </resources>

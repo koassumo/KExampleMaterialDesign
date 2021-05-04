@@ -25,6 +25,8 @@
     <string name="title_different_types_chips">Different types</string>
     <string name="title_different_recolors_chips">Different colors and others</string>
     <string name="normal_text_on_background">Normal text on Background fills room here. Normal text on Background fills room here. Normal text on Background fills room here.</string>
-    <string name="change_theme_button">Change Theme Button</string>
     <string name="top_app_bar">Top App Bar</string>
+    <string name="change_theme_button">Change!</string>
+    <string name="text_button">Text btn</string>
+    <string name="outlined_button">Outlined btn</string>
 </resources>

@@ -20,9 +20,10 @@ class ThemesActivity5 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         when (flag) {
-            1 -> setTheme(R.style.GreenAppTheme)
-            2 -> setTheme(R.style.BrownAppTheme)
-            3 -> setTheme(R.style.YellowAppTheme)
+            1 -> setTheme(R.style.IndigoAppTheme)
+            2 -> setTheme(R.style.GreenAppTheme)
+            3 -> setTheme(R.style.BrownAppTheme)
+            4 -> setTheme(R.style.YellowAppTheme)
         }
         super.onCreate(savedInstanceState)
         setContentView(R.layout.themes_activity_5)
@@ -34,7 +35,7 @@ class ThemesActivity5 : AppCompatActivity() {
         super.onResume()
         changeThemeButton.setOnClickListener {
             flag++
-            if (flag == 4) flag = 1
+            if (flag == 5) flag = 1
             recreate()
         }
 
